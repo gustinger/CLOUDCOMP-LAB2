@@ -1,0 +1,61 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    705085.qb3
+Username:  kgusti
+Group:     latechusers
+Date:      09-Oct-2019 19:21
+Node:      qb027 (91144)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb027
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb027 19:21:11 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 19:21:11
+------------------------------------------------------
+MPI run with 4 processes.
+Hello, kgusti from #0 of 4!!
+Hello, kgusti from #1 of 4!!
+Hello, kgusti from #2 of 4!!
+Hello, kgusti from #3 of 4!!
+Time on rank #0 is 0.000126!
+MPI run with 8 processes.
+Hello, kgusti from #0 of 8!!
+Hello, kgusti from #1 of 8!!
+Hello, kgusti from #2 of 8!!
+Hello, kgusti from #3 of 8!!
+Hello, kgusti from #4 of 8!!
+Hello, kgusti from #5 of 8!!
+Hello, kgusti from #6 of 8!!
+Hello, kgusti from #7 of 8!!
+Time on rank #0 is 0.000127!
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 19:21:12
+------------------------------------------------------
+Checking node qb027 (MS)
+Checking node qb027 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 19:21:14
+------------------------------------------------------
+Exit Status:     0
+Job ID:          705085.qb3
+Username:        kgusti
+Group:           latechusers
+Job Name:        myjob_lab22
+Session Id:      91143
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb027
+Process id:      91778
+------------------------------------------------------
